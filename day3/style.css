@@ -6,8 +6,13 @@
     background-color:rgb(206, 160, 243) ;  
   }
   
-  h1,h2{
+  h1{
       font-size: xx-large;
+      
+  }
+  h2{
+    font-size: xx-large;
+    color:blue;
   }
   .head {
     font-size: 25px;
@@ -26,10 +31,10 @@
 }
 div1{
         border-left: 4px solid rgb(0, 0, 0);
-        height:400px;
+        height:380px;
         position: absolute;
         left: 50%;
-        top: 15%;
+        top: 20%;
 }
 
   
