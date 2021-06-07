@@ -1,0 +1,36 @@
+*{
+    max-width: 500px;
+    margin: auto;
+}
+  div {
+    background-color:rgb(206, 160, 243) ;  
+  }
+  
+  h1,h2{
+      font-size: xx-large;
+  }
+  .head {
+    font-size: 25px;
+    text-decoration:underline ; 
+    font-weight: bolder;
+    color: rgb(220, 20, 20);
+  }
+  .stuff{
+    display: inline-block;
+    margin-top: 6px;
+    width: 1000px;
+    height: 500px;
+    margin: 0 auto;
+	border: 20px solid rgb(59, 19, 202);
+   
+}
+div1{
+        border-left: 4px solid rgb(0, 0, 0);
+        height:400px;
+        position: absolute;
+        left: 50%;
+        top: 15%;
+}
+
+  
+  
