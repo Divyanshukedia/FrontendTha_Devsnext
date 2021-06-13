@@ -1,1 +1,32 @@
 
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <script src="cal.js"></script>
+    <title>Calculator</title>
+</head>
+
+<body>
+    <div class="Calculator">
+        <h1>Simple Calculator</h1>
+
+        <div class="input">
+            <input type="text" id="screen1" name="screen1" value="Enter First No." onfocus="this.value=''">
+            <input type="text" id="screen2" name="screen2" value="Enter Second No." onfocus="this.value=''">
+        </div>
+
+        <div class="buttons">
+            <button onclick="addition()">Add</button>
+            <button onclick="subtraction()">Subtract</button>
+            <button onclick="multiply()">Multiply</button>
+            <button onclick="divide()">Divide</button>
+        </div>
+
+        <button class="result" onclick="submit()">Result</button>
+
+    </div>
+</body>
+
+</html>
