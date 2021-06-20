@@ -31,13 +31,13 @@
       cursor: pointer;
   }
   
-  .active{
+  .onclick{
       background-color: #DE4738;
-      border:3px solid #E24E3F;
+      border: 0.1px solid white;
   }
-  .active:hover{
-      background-color:#EC5142;
-      border-color: #E24E3F;
+  .onclick:hover{
+      background-color:white;
+      border-color: white;
   }
   
  
